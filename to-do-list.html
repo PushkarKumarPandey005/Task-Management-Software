@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <Section>
+            <!--===============================Navigation-baar=======================-->
+            <div class="navigation-baar">
+                <div class="logo">
+                    <img src="./public/img/logo.png" alt="logo" id="logo">
+                </div>
+                <!--=================================Logo=======================End=====-->
+
+                <!--=================================Navigation bar links===========================-->
+                <div class="nav-link">
+                    <a href="index.html" class="link">Home</a>
+                    <a href="#" class="link">About Us</a>
+                    <a href="to-do-list.html" class="link">To Do List</a>
+                    <a href="#" class="link">Services</a>
+                    <a href="#" class="link">Contact Us</a>
+                </div>
+                <!--==============================Navigation baaar links end=========================-->
+                <input id="search" placeholder="Search....">
+
+                <button id="login-logout">Login/Logout</button>
+
+            </div>
+        </Section>
+        <!--=================================Navigation baar End====================-->
+
+        <!--==========================To-do-container========================-->
+        <Section>
+            <div class="to-do-main-container">
+
+                <div class="label">
+                    <label class="label1">Enter your Task</label>
+                    <label class="label2">Enter Time</label>
+                    <label class="label3">Enter Date</label>
+                    <label class="label3">Enter Day</label>
+                </div>
+
+                <div class="to-do-container">
+
+                    <input type="text" id="task-input" placeholder="Enter your task">
+                    <input type="time" id="time">
+                    <input type="date" id="date">
+                    <input type="day" id="day">
+                    <button id="add">Add</button>
+                    <button id="delete">Delete</button>
+                    <button id="print">Print</button>
+                    
+                </div>
+            </div>
+        </Section>
+
+        <!--========================================To-day-container end-=====================================================-->
+         
+    
+  
+      <section>
+           
+         <div class="table-container">
+            <table class="record">
+                 <thead>
+                    <tr>
+                        <th class="class2">Select</th>
+                        <th class="class1">Task Description</th>
+                        <th class="class1">Task Time</th>
+                        <th class="class1">Task Date</th>
+                        <th class="class1"> Task Day</th>
+                        <th class="class1">Edit</th>
+                        
+                    </tr>
+                 </thead>
+
+                 <tbody id="tbody">
+                    
+                 </tbody>
+            </table>
+        </div>
+
+      </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
